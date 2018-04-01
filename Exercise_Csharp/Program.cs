@@ -10,21 +10,30 @@ namespace Exercise_Csharp
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[10];
-            Console.WriteLine("Nhập vào một mảng số nguyên nhỏ hơn hoặc bằng 10 phần tử");
-            for (int i=0; i < arr.Length; i++)
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Chon chuong trinh chay:");
+            var opt = Console.ReadLine();
+            while (opt != "0")
             {
-                Console.Write("Nhập phần tử {1} a[{0}] =", i,i+1);
-                arr[i] = Convert.ToInt32(Console.ReadLine());
+                switch (opt)
+                {
+                    case "1":
+                        Console.WriteLine("ArrayPrint program is running...");
+                        ArrayPrint.Run();
+                        break;
+                    case "2":
+                        ArrayReverse.Run();
+                        break;
+                    default:
+                        Console.WriteLine("No action!");
+                        break;
+                }
+                Console.WriteLine("Chon chuong trinh chay:");
+                opt = Console.ReadLine();
             }
-            Console.WriteLine("Mảng gồm 10 phần tử là:");
-            for(int i = 0; i < arr.Length; i++)
-            {
-                Console.Write(arr[i]+" ");
-            }
-            
+            Console.WriteLine("Exit!");
             Console.ReadKey();
-            
+
         }
     }
 }
