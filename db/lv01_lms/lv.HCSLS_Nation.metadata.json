@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"lv01_lms.lv.HCSLS_Nation"},{"v":2,"unique":true,"key":{"nation_code":1},"name":"nation_code_1","ns":"lv01_lms.lv.HCSLS_Nation"}],"uuid":"b95feb68262749af8303587be96d8a2a"}

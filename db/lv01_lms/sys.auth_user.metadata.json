@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"lv01_lms.sys.auth_user"},{"v":2,"unique":true,"key":{"username":1},"name":"username_1","ns":"lv01_lms.sys.auth_user"}],"uuid":"4a5b2663e98f4398b15fddc0c7f90859"}

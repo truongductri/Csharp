@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"lv01_lms.lv.HCSLS_Religion"},{"v":2,"unique":true,"key":{"religion_code":1},"name":"religion_code_1","ns":"lv01_lms.lv.HCSLS_Religion"}],"uuid":"a1c07c381525467a8af192669f8b742b"}

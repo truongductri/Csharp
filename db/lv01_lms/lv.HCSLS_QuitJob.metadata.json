@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"lv01_lms.lv.HCSLS_QuitJob"},{"v":2,"unique":true,"key":{"quit_job_code":1},"name":"quit_job_code_1","ns":"lv01_lms.lv.HCSLS_QuitJob"}],"uuid":"fa35c3e2f008485e9cf2d473478b402b"}

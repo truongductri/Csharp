@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"lv01_lms.lv.HCSLS_AwardLevel"},{"v":2,"unique":true,"key":{"award_level_code":1},"name":"award_level_code_1","ns":"lv01_lms.lv.HCSLS_AwardLevel"}],"uuid":"b3d29185962b43d28062c741f23aa08a"}

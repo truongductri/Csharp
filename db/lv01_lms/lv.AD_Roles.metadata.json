@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"lv01_lms.lv.AD_Roles"},{"v":2,"unique":true,"key":{"role_code":1},"name":"role_code_1","ns":"lv01_lms.lv.AD_Roles","partialFilterExpression":{"role_code":{"$type":"string"}}}],"uuid":"7681d1b722ae421b920ecc86a09171f8"}

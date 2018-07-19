@@ -1,0 +1,1 @@
+{"options":{"viewOn":"HCSSYS_CollectionInfo","pipeline":[{"$group":{"_id":{"caption":"$table_name","value":"$table_name"}}},{"$replaceRoot":{"newRoot":"$_id"}}]},"indexes":[]}
