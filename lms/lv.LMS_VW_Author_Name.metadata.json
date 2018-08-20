@@ -1,0 +1,1 @@
+{"options":{"viewOn":"lv.LMSLS_MaterialManagement","pipeline":[{"$project":{"author_name":1.0}},{"$match":{"author_name":{"$ne":null}}}]},"indexes":[]}

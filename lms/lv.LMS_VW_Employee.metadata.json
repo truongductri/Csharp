@@ -1,0 +1,1 @@
+{"options":{"viewOn":"lv.HCSEM_Employees","pipeline":[{"$project":{"first_name":1.0,"last_name":1.0,"user_id":1.0,"full_name":{"$concat":["$last_name"," ","$first_name"]},"employee_code":1.0,"is_cbcc":1.0}}]},"indexes":[]}

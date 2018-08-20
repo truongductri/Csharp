@@ -1,0 +1,1 @@
+{"options":{"viewOn":"HCSEM_Employees","pipeline":[{"$match":{"is_cbcc":"true"}}]},"indexes":[]}
